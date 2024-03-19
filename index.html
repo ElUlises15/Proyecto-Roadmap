@@ -4,18 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roadmap</title>
-    <link rel="shortcut icon" href="FavIcon.jpeg" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="./assets/RoadMap.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="./index.html">
-          <img src="./FavIcon.jpeg" alt="Hola Soy Milei" class="icon"
+          <img src="./assets/RoadMap.ico" alt="Hola Soy Milei" class="icon"
         /></a>
-        <ul>
-          <li><a href="#final" id="inicio">Ir Al Final</a></li>
-        </ul>
       </nav>
     </header>
     <hr />
@@ -23,380 +20,356 @@
     <main>
       <section>
         <h1>Roadmap</h1>
-        <h2>Curso de Ingles I</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/99FY4YcOUPE?si=YWxQs_yWRM6Wu9u2"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video1')" class="title-videos">
+            Curso de Ingles I
+          </h2>
+          <div id="video1" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/99FY4YcOUPE?si=YWxQs_yWRM6Wu9u2"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de Ingles II</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/wJwVJX2hGro?si=zQYro-J93S1Fr0ri"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
         <h3>FRONT-END</h3>
-        <h2>Curso de Dalto HTML</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/kN1XP-Bef7w?si=xrPUaljrQKqT8fMp"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video2')" class="title-videos">
+            Curso de Dalto VSC
+          </h2>
+          <div id="video2" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TbzrOz8HbFM?si=f4NjPiO6B4z-m8X8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso De HolaMundo HTML</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/MJkdaVFHrto?si=G8YtZhoIcfa2SMjJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Dalto de CSS</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/OWKXEJN67FE?si=iyV9laDtbB95npF7"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de HolaMundo de CSS</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/wZniZEbPAzk?si=RPH0kW9HZUkSAdfu"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video3')" class="title-videos">
+            Curso de HTML5 desde CERO | Dalto
+          </h2>
+          <div id="video3" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/kN1XP-Bef7w?si=SAI9ayaRE8kJ-Eac"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video4')" class="title-videos">
+            Curso de CSS desde CERO | Dalto
+          </h2>
+          <div id="video4" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/OWKXEJN67FE?si=AcB-YGac9UnG4iDJ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video5')" class="title-videos">
+            Curso de HTML y CSS desde CERO | Dalto
+          </h2>
+          <div id="video" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ELSm-G201Ls?si=B_pPvn8fIaH3cEx3"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
         <h3>REALIZAR PROYECTOS ESTATICOS</h3>
-        <h2>Curso de Dalto de JavaScript Nivel Junior</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/z95mZVUcJ-E?si=_6idhewepTIGFy9l"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video6')" class="title-videos">
+            Curso de JAVASCRIPT desde CERO a JUNIOR | Dalto
+          </h2>
+          <div id="video6" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/z95mZVUcJ-E?si=JubOddblZdKGJ0ul"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video7')" class="title-videos">
+            Curso de JAVASCRIPT desde CERO A MIDLEVEL | Dalto
+          </h2>
+          <div id="video7" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/xOinGb2MZSk?si=QPsEWZjVmAw6liYR"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de Dalto de JavaScript Nivel Mid Level / SemiSenior</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/xOinGb2MZSk?si=C9FmY7Tw5VbcXlnm"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video8')" class="title-videos">
+            Curso de JAVASCRIPT desde CERO a MASTER | Dalto
+          </h2>
+          <div id="video8" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/EbMi1Qj4rVE?si=12ERPzbKajh406WA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de Dalto de JavaScript Nivel Master / Senior</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/EbMi1Qj4rVE?si=j1R8azayHFWewCG-"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de FCC de JavaScript</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ivdTnPl1ND0?si=CEGAFXY5x5Dgj86w"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
         <h3>REALIZAR PROYECTOS ESTATICOS AVANZADOS</h3>
-        <h2>Curso de Dalto Hosting (Hostinger)</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/hikoV1Q9EzY?si=oCMEeVEF9n6ZDdia"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de Dalto GIT</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/9ZJ-K-zk_Go?si=zWzjdVmrdDWf8265"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de FCC de GIT y GITHUB</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/mBYSUUnMt9M?si=pJPHjTLIp7XERiVo"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de FCC de React Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/6Jfk8ic3KVk?si=4xlMFrWwf_9Xj44O"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
 
-        <h2>Curso de midulive de React Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/7iobxzd_2wY?si=LuOH54g4_FeQN43V"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de midudev de React Native</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/qi87b6VcIHY?si=S7PRxX_-RqpsveWw"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de midudev de TypeScript I</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/fUgxxhI_bvc?si=hQjEGYw2RknIalNr"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de midudev de TypeScript II</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/L1ZSk-vPVKI?si=WgqqCj8MMmBlGo-Q"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>BACK-END</h2>
-        <h2>Curso de Dalto Python</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/nKPbfIU442g?si=Nv-pqt1LpvcC6nrC"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video9')" class="title-videos">
+            Curso de HOSTING desde CERO | Dalto
+          </h2>
+          <div id="video" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/hikoV1Q9EzY?si=hkvvhURae4rRfaL9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video10')" class="title-videos">
+            Curso de GIT desde CERO | Dalto
+          </h2>
+          <div id="video10" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/9ZJ-K-zk_Go?si=ORCtzB4PPqeACDnS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video11')" class="title-videos">
+            Aprende Git y GitHub | freeCodeCamp
+          </h2>
+          <div id="video11" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/mBYSUUnMt9M?si=771vYOSqctDDsqiW"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video12')" class="title-videos">
+            Aprende React Desde Cero | freeCodeCamp
+          </h2>
+          <div id="video12" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/6Jfk8ic3KVk?si=uLnr0lFAiHEYpY-6"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video13')" class="title-videos">
+            CURSO REACT 2024 | midulive
+          </h2>
+          <div id="video13" class="videos">
+            https://www.youtube.com/watch?v=7iobxzd_2wY&ab_channel=midulive
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video14')" class="title-videos">
+            CURSO REACT NATIVE desde CERO | midudev
+          </h2>
+          <div id="video14" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/qi87b6VcIHY?si=i7v2DCxFcp4pi8Ia"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video15')" class="title-videos">
+            De Novato a Ninja: Aprende TypeScript I | midulive
+          </h2>
+          <div id="video15" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/fUgxxhI_bvc?si=yPWAQh8QAYTv-obu"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de Dalto Python POO</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/HtKqSJX7VoM?si=I2kMsuH2nuro7fah"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video16')" class="title-videos">
+            De Novato a Ninja: Aprende TypeScript | midulive
+          </h2>
+          <div id="video16" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/L1ZSk-vPVKI?si=VHhn3vfn7AVrs5un"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso Lista de Reproduccion de Python del canal MoureDev</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=kSWYz6Q-yJPon8oe&amp;list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <h3>BACK-END</h3>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video17')" class="title-videos">
+            Curso de PYTHON desde CERO | Dalto
+          </h2>
+          <div id="video17" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nKPbfIU442g?si=wyYC4ulCSVJ56OTu"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de FCC de Node Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/1hpc70_OoAg?si=Rb8tL7JjlcH6E-tJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video18')" class="title-videos">
+            Curso de POO con PYTHON desde CERO | Dalto
+          </h2>
+          <div id="video18" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/HtKqSJX7VoM?si=inlpaTPxh1I-GtYi"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso Lista de Reproduccion de Node Js del canal midudev</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=wxMutjsjbluKck9f&amp;list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video19')" class="title-videos">
+            Curso de PYTHON Desde Cero hasta Backend | Dalto
+          </h2>
+          <div id="video19" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/videoseries?si=oWn6p7BRE_ZkX87h&amp;list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de Dalto SQL</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/DFg1V-rO6Pg?si=7R813abvs2UxOfae"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video20')" class="title-videos">
+            Curso de SQL desde CERO | Dalto
+          </h2>
+          <div id="video20" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/DFg1V-rO6Pg?si=B5IEParsoaT5_jTC"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
 
-        <h2>Curso de MoureDev de SQL</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/OuJerKzV5T0?si=n4Mw91U6B8QP49jT"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2>Curso de HolaMundo de SQL</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/uUdKAYl-F7g?si=-VX0NF4lSFyDR3xP"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Fazt de MongoDB</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/-bI0diefasA?si=0634PvOLTGDIgIX1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Fazt de Express Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/JmJ1WUoUIK4?si=xqrQIQ1-QckKYseB"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Segie Code de Angular</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/soInCF7nbDw?si=2CGVYZ1GQdyOniAN"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Bluuweb de Vue Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=BCzHZkQ8JIWpPLuj&amp;list=PLPl81lqbj-4J-gfAERGDCdOQtVgRhSvIT"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de GOGODEV de GraphQL</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Y-KDpO24RC4?si=X7As4t06XdOoPDjJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de midudev de Next Js</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/jMy4pVZMyLM?si=dToW3gOmK5Rs8X31"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-
-        <h2>Curso de Dalto VSC</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/TbzrOz8HbFM?si=f4NjPiO6B4z-m8X8"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h3>BootCamp de midudev</h3>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?si=V-0rejzVsHr9UXBo&amp;list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div class="card">
+          <h2 onclick="mostrarOcultarVideo('video21')" class="title-videos">
+            Bootcamp FullStack Gratuito | midudev
+          </h2>
+          <div id="video21" class="videos">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/videoseries?si=DnwHNIz9tAOmpQvC&amp;list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </section>
     </main>
+    <script src="./js/script.js"></script>
 
     <footer>
       <div class="footer-container">
         <p>&copy; 2024 Bootcamp de Programación</p>
-        <ul>
-          <li><a href="#inicio" id="final">Ir Al Inicio</a></li>
-        </ul>
       </div>
     </footer>
   </body>

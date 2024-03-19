@@ -1,24 +1,27 @@
 * {
   color: rgb(250, 240, 230);
-  background-color: rgb(53, 47, 68);
   margin: 0;
   border: 0;
   padding: 0;
 }
+body {
+  background-color: rgb(53, 47, 68);
+}
 h1 {
   font-size: 3rem;
-  background-color: rgb(92, 84, 112);
   margin: 2rem;
 }
 h2 {
-  background-color: rgb(92, 84, 112);
   margin: 2rem;
 }
 h3 {
-  background-color: rgb(92, 84, 112);
   margin: 4rem;
   font-size: 1.5rem;
   text-decoration: underline;
+  width: 90%;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 2px solid #fff;
 }
 
 header {
@@ -34,23 +37,12 @@ nav {
   background-color: #222;
   height: 6rem;
 }
-ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-decoration: none;
-  list-style-type: none;
-  background-color: #222;
-}
+
 .icon {
   height: 5rem;
   border-radius: 50%;
 }
-li {
-  margin-right: 20px;
-  margin-top: 20px;
-  background-color: #222;
-}
+
 a {
   text-decoration: none;
   background-color: #222;
@@ -65,11 +57,46 @@ section {
   flex-direction: column;
   align-items: center;
   width: 70%;
-  background-color: rgb(92, 84, 112);
   margin: 2rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  /* background-color: rgb(92, 84, 112); */
+  background: radial-gradient(
+    circle,
+    rgba(92, 84, 112, 0.99),
+    rgba(255, 255, 255, 0.1)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 iframe {
   margin: 2rem;
+}
+.card {
+  border: 1px solid #fff;
+  text-align: center;
+  box-shadow: #111 25%;
+  width: 70%;
+  margin: 1rem;
+  box-shadow: #111 0.5rem 0.5rem 0.5rem;
+}
+
+.card:hover {
+  border-left: 10px solid #111;
+  border-right: 10px solid #111;
+  box-shadow: #111 1rem 1rem 2rem;
+}
+
+.title-videos:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.title-videos:active {
+  cursor: pointer;
+}
+.videos {
+  display: none;
 }
 
 /*Footer*/
@@ -80,10 +107,9 @@ footer {
 
 .footer-container {
   background-color: #222;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
 }
@@ -91,28 +117,5 @@ footer {
 .footer-container p {
   margin: 0;
   background-color: #222;
-}
-
-.footer-container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #222;
-}
-
-.footer-container ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.footer-container ul li:first-child {
-  margin-left: 0;
-}
-
-.footer-container ul li a {
-  color: #fff;
-  text-decoration: none;
-  background-color: #222;
-  padding: 5px 10px;
-  border-radius: 5px;
+  text-align: center;
 }
